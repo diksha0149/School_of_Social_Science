@@ -35,7 +35,7 @@
 
     <!-- Navbar items -->
     <div class="nav-links" id="nav-link">
-      <a class="navbar-brand" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+      <a class="navbar-brand" href="index.php"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
       <div class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-info-circle" aria-hidden="true"></i> About Us<span class="caret"></span>
           <i class="fas fa-angle-down"></i>
@@ -69,7 +69,7 @@
           <a href="Notice/brochure.pdf">Brochure</a>
         </div>
       </div>
-      <a href="Notice/associations.pdf"><i class="fa fa-handshake-o"></i> Faculty</a>
+      <a href="faculty.php"><i class="fa fa-handshake-o"></i> Faculty</a>
       <div class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown"  href="events.php"><i class="fa fa-users" aria-hidden="true"></i> Student's Corner<span class="caret" ></span>
           <i class="fas fa-angle-down"></i>
@@ -77,16 +77,10 @@
         <div class="drop-content">
           <a  href="event_academic.php" id="acad">Placements</a>
           <a href="event_cultural.php" id="cult">Research</a>
+          <a href="event_cultural.php" id="cult">Field Visit</a>
           <a href="event_community.php" id="commu">Internships</a>
         </div>
       </div>
-      <!-- <li class="dropdown"><a class="dropdown-toggle"  data-toggle="dropdown" href="#"><i class="fa fa-users"></i> Student's Corner <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="Notice/Placement.pdf">Placement</a></li>
-                   <li><a href="research.php">Research</a></li>
-                   <li><a href="Notice/INTERNSHIPS.pdf">Internships</a></li>
-                </ul>
-              </li> -->
       <div class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown"  href="events.php"><i class="fa fa-trophy" aria-hidden="true"></i> Events<span class="caret" ></span>
           <i class="fas fa-angle-down"></i>

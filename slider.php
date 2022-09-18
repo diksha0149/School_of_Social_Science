@@ -6,7 +6,9 @@
     <link rel="stylesheet" href="slider.css">
   </head>
   <body>
-
+  <div class="cllg_logo">
+          <img src="Images/head2.png" alt="">
+  </div>
     <!--image slider start-->
     <div class="slider">
       <div class="slides">
@@ -18,16 +20,16 @@
         <!--radio buttons end-->
         <!--slide images start-->
         <div class="slide first">
-          <img src="1.jpg" alt="">
+          <img src="Images/alumni.jpg" alt="">
         </div>
         <div class="slide">
-          <img src="2.jpg" alt="">
+          <img src="Images/alumni1.jpg" alt="">
         </div>
         <div class="slide">
-          <img src="3.jpg" alt="">
+          <img src="Images/alumni2.jpg" alt="">
         </div>
         <div class="slide">
-          <img src="4.jpg" alt="">
+          <img src="Images/6days.jpg" alt="">
         </div>
         <!--slide images end-->
         <!--automatic navigation start-->

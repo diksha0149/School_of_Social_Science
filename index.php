@@ -2,31 +2,46 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+    <title>Image Slider</title>
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <style>
+    /* .main2{
+      width: 100%;
+      height: 20%;
+      background-color: green;
+      position: relative;
+    } */
+    .main{
+      width: 100%;
+      display: block;
+      height:auto;
+      position: absolute;
+    }
+    /* .main1{
+      width: 100%;
+      height: 50px;
+      position: relative;
+    } */
+  </style>
+  <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" /> -->
 </head>
 
 <body>
-<!-- <div class="nav-header">
-      <div class="nav-logo">
-        Hello Moto
-           <a href="#">
-          <img src="logo.png" width="100px" alt="logo"> 
-        </a> -
-      </div>
-    </div> -->
-    <div>
-     <?php include 'navbar.php';?>
-  </div>  
-  <div>
-     <?php include 'rekha.php';?>
+  <div class="main">
+ <div class="main1">
+ <?php include 'navbar.php';?>
+ </div>
+ <div class="main2">
+ <?php include 'slider.php';?>
   </div>
-  
+  <div class="main2">
+ <?php include 'rekha.php';?>
+  </div>
+ 
+  </div>
 </body>
 
 </html>

@@ -1,3 +1,7 @@
+/* body{
+  /* border: 5px solid red;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+} */
 .rekha {
     display: grid;
     padding: 2rem;
@@ -7,6 +11,9 @@
     max-width: 1000px;
     margin: 0 auto;
     font: 500 100%/1.5 system-ui;
+    border: 2px solid black;
+    /* border: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
 }
 img {
     max-width: 100%;
