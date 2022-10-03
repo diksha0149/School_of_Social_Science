@@ -36,20 +36,16 @@
 <body>
 <?php include 'navbar.php';?>
 <div class="feed">
-    <div class="feedback_head">Feedback Analysis</div>
+    <div class="feedback_head">Research</div>
 <h3>
-<a href="Notice/feed_parent.pdf" style="color:black ;" >1. Parent's Feedback</a>
+<a href="Notice/Research_Paper_Publication.pdf" style="color:black ;" >1. Research Paper Publication</a>
 </h3>
 <h3>
-<a href="Notice/feed_student.pdf" style="color:black;">2. Student's Feedback</a>
+<a href="Notice/Ph.D._Awarded_2014-18.docx" style="color:black;">2. Ph.D Scholars</a>
 </h3>
   
  <h3>
-<a href="Notice/feed_teacher.pdf" style="color:black;">3. Teachers's Feedback</a>
-</h3>
-
-<h3> 
-<a href="Notice/feed_alumini.pdf" style="color:black;">4. Alumini's Feedback</a>
+<a href="Notice/Research_Scholars_-2014-18.pdf" style="color:black;">3. Research Scholars</a>
 </h3>
 
 </div>

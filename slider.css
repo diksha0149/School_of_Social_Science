@@ -8,12 +8,12 @@
     background: #23E3C9;
   } */
   .cllg_logo img{
-    width: 4%;
-    height: 40px;
+    width: 50%;
+    height: 400px;
     position: absolute;
     margin-left: 5px; 
     margin-right: auto;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     top: 200px;
   }
   .slider{

@@ -4,6 +4,16 @@
     <meta charset="utf-8">
     <title>Image Slider</title>
     <link rel="stylesheet" href="slider.css">
+    <style>
+    .cllg_logo img{
+    width: 45%;
+    height: 200px;
+    position: absolute;
+    margin-left: 5px; 
+    margin-right: auto;
+    top: 200px;
+  }
+      </style>
   </head>
   <body>
   <div class="cllg_logo">

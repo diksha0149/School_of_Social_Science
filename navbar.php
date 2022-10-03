@@ -75,10 +75,10 @@
           <i class="fas fa-angle-down"></i>
         </a>
         <div class="drop-content">
-          <a  href="event_academic.php" id="acad">Placements</a>
-          <a href="event_cultural.php" id="cult">Research</a>
+          <a  href="Notice/Placement.pdf" id="acad">Placements</a>
+          <a href="research.php" id="cult">Research</a>
           <a href="event_cultural.php" id="cult">Field Visit</a>
-          <a href="event_community.php" id="commu">Internships</a>
+          <a href="Notice/Internship.pdf" id="commu">Internships</a>
         </div>
       </div>
       <div class="dropdown">
