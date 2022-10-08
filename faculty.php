@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Image Cards With Hover Effect</title>
+    <title>School of Social Science</title>
     <!-- <link rel="stylesheet" href="faculty.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <style>
@@ -28,7 +28,12 @@ body{
 	margin: 30px;
   /* margin-top: 100px; */
 }
-
+.container h1{
+  font-size: 40px;
+  font-weight: 900px;
+  align-item: center;
+  text-align: center;
+}
 .row{
 	width: 100%;
 	display: flex;
@@ -46,6 +51,7 @@ body{
 	overflow: hidden;
   border: 5px grey;
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+  align-items: inline;
 }
 
 .image img{
@@ -116,25 +122,25 @@ body{
 	justify-content: space-between;
 	align-items: center;
 	padding: 15px;
-	bottom: -60px;
+	bottom: 0px;
 	transition: 0.6s;
 	transition-property: bottom;
   font-size:10px;
 }
 
-.image:hover .more{
+/* .image:hover .more{
 	bottom: 0%;
-}
+} */
 
 .more .read-more{
 	color: #000;
 	text-decoration: none;
-	font-size: 10px;
-	font-weight: 500;
+	font-size: 15px;
+	font-weight: 900;
 	text-transform: uppercase;
   pointer-events: none;
   align-items:block;
-  display: block;
+  display: inline;
 }
 
 .more .read-more span{
@@ -143,7 +149,7 @@ body{
 
 .more .icon-links i{
 	color: #000;
-	font-size: 10px;
+	font-size: 15px;
 }
 
 .more .icon-links a:not(:last-child) i{
@@ -153,18 +159,20 @@ body{
 /* Responsive CSS */
 
 @media (max-width: 1080px){
-	/* .image{
-		
-		max-width: 300px;
-	} */
   .image {
     flex: 100%;
     width: 300px;
     height: 300px;
   }
 }
-
+@media (max-width: 1250px){
+  .container{
+    position: relative;
+    margin-top:80px;
+  }
+}
 @media (max-width: 400px){
+ 
 	.image .details p{
 		font-size: 16px;
 	}
@@ -183,17 +191,18 @@ body{
 <!-- </div> -->
     <!--image card layout start-->
     <div class="container">
-      <!--image row start-->
-      <div class="row">
+      <h1>Faculty Profile</h1>
+       <!--image row start-->
+       <div class="row">
         <!--image card start-->
         <div class="image">
-          <img src="images/Dr. Rekha Acharya.JPG" alt="">
+        <img src="images/Dr. Rekha Acharya.JPG" alt="">
           <div class="details">
-            <div class="more">
+          <div class="more">
               <div class="read-more">
-              <a  >Dr. Rekha Acharya</a>
-              <a  >Dr. Rekha Acharya</a>
-               </div>
+              <a>Dr. Rekha Acharya</a>
+              <a>Head of Department</a>
+              </div>
               <div class="icon-links">
                 <a href="#"><i class="fas fa-paperclip"></i></a>
               </div>
@@ -201,6 +210,10 @@ body{
           </div>
         </div>
         <!--image card end-->
+      </div>
+      <!--image row end-->
+      <!--image row start-->
+      <div class="row">
         <!--image card start-->
         <div class="image">
           <img src="images/Dr. Varsha Patel.jpg" alt="">
@@ -227,10 +240,6 @@ body{
           </div>
         </div>
         <!--image card end-->
-      </div>
-      <!--image row end-->
-      <!--image row start-->
-      <div class="row">
         <!--image card start-->
         <div class="image">
           <img src="images/Mr. Arvind Parihar.jpg" alt="">
@@ -243,10 +252,15 @@ body{
             </div>
           </div>
         </div>
+        </div>
+      <!--image row end-->
+      <!--image row start-->
+      <div class="row">
         <!--image card end-->
         <!--image card start-->
         <div class="image">
           <img src="images/Dr. Rashmi Jain.jpg" alt="">
+          <a href="#" class="read-more">Dr. Rashmi Jain</a>
           <div class="details">
             <div class="more">
               <a href="#" class="read-more">Dr. Rashmi Jain</a>
@@ -270,10 +284,6 @@ body{
           </div>
         </div>
         <!--image card end-->
-        </div>
-      <!--image row end-->
-      <!--image row start-->
-      <div class="row">
         <!--image card start-->
         <div class="image">
           <img src="images/Dr. Jyoti Chauhan.jpg" alt="">
@@ -286,6 +296,10 @@ body{
             </div>
           </div>
         </div>
+        </div>
+      <!--image row end-->
+      <!--image row start-->
+      <div class="row">
         <!--image card end-->
         <!--image card start-->
         <div class="image">
@@ -313,10 +327,6 @@ body{
           </div>
         </div>
         <!--image card end-->
-        </div>
-      <!--image row end-->
-      <!--image row start-->
-      <div class="row">
         <!--image card start-->
         <div class="image">
           <img src="images/Dr. Rajendra Singh.jpg" alt="">
@@ -329,6 +339,10 @@ body{
             </div>
           </div>
         </div>
+        </div>
+      <!--image row end-->
+      <!--image row start-->
+      <div class="row">
         <!--image card end-->
         <!--image card start-->
         <div class="image">
@@ -356,10 +370,7 @@ body{
           </div>
         </div>
         <!--image card end-->
-        </div>
-      <!--image row end-->
-      <!--image row start-->
-      <div class="row">
+        
         <!--image card start-->
         <div class="image">
           <img src="images/Dr. Shefali Rajwal.jpg" alt="">
@@ -372,6 +383,10 @@ body{
             </div>
           </div>
         </div>
+        </div>
+      <!--image row end-->
+      <!--image row start-->
+      <div class="row">
         <!--image card end-->
         <!--image card start-->
         <div class="image">
@@ -399,10 +414,7 @@ body{
           </div>
         </div>
         <!--image card end-->
-        </div>
-      <!--image row end-->
-      <!--image row start-->
-      <div class="row">
+        
         <!--image card start-->
         <div class="image">
           <img src="images/Ms.Neetu.jpg" alt="">
@@ -415,6 +427,10 @@ body{
             </div>
           </div>
         </div>
+        </div>
+      <!--image row end-->
+      <!--image row start-->
+      <div class="row">
         <!--image card end-->
         <!--image card start-->
         <div class="image">
@@ -442,10 +458,7 @@ body{
           </div>
         </div>
         <!--image card end-->
-        </div>
-      <!--image row end-->
-      <!--image row start-->
-      <div class="row">
+        
         <!--image card start-->
         <div class="image">
           <img src="images/Mr.KartikeyaBhardwaj.jpg" alt="">
@@ -458,6 +471,10 @@ body{
             </div>
           </div>
         </div>
+        </div>
+      <!--image row end-->
+      <!--image row start-->
+      <div class="row">
         <!--image card end-->
         <!--image card start-->
         <div class="image">
@@ -485,10 +502,7 @@ body{
           </div>
         </div>
         <!--image card end-->
-        </div>
-      <!--image row end-->
-      <!--image row start-->
-      <div class="row">
+       
         <!--image card start-->
         <div class="image">
           <img src="images/Mr. Suhel Khan.jpg" alt="">
@@ -501,6 +515,10 @@ body{
             </div>
           </div>
         </div>
+        </div>
+      <!--image row end-->
+      <!--image row start-->
+      <div class="row">
         <!--image card end-->
         <!--image card start-->
         <div class="image">
@@ -528,10 +546,6 @@ body{
           </div>
         </div>
         <!--image card end-->
-        </div>
-      <!--image row end-->
-      <!--image row start-->
-      <div class="row">
         <!--image card start-->
         <div class="image">
           <img src="images/Ms. Jyoti Joshi.jpg" alt="">

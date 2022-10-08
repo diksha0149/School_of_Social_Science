@@ -36,20 +36,18 @@
 <body>
 <?php include 'navbar.php';?>
 <div class="feed">
-    <div class="feedback_head">Feedback Analysis</div>
+    <div class="feedback_head">Syllabus</div>
 <h3>
-<a href="Notice/feed_parent.pdf" style="color:black ;" >1. Parent's Feedback</a>
+<a href="Notice/time_table_MBA_RD.pdf" style="color:black ;" >1. Diploma and Certificate Courses</a>
 </h3>
 <h3>
-<a href="Notice/feed_student.pdf" style="color:black;">2. Student's Feedback</a>
+<a href="Notice/B.S.W.pdf" style="color:black;">2. Under Graduate</a>
 </h3>
-  
+<h3>
+<a href="Notice/TIME_TABLE_MSW,_BSW,_MA_SOCIOLOGY.pdf" style="color:black;">3. Post Graduate</a>
+</h3> 
  <h3>
-<a href="Notice/feed_teacher.pdf" style="color:black;">3. Teachers's Feedback</a>
-</h3>
-
-<h3> 
-<a href="Notice/feed_alumini.pdf" style="color:black;">4. Alumini's Feedback</a>
+<a href="Notice/timetable.pdf" style="color:black;">4. Ph. D Couses</a>
 </h3>
 
 </div>

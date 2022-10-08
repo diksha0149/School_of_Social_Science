@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>School of Social Science</title>
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
@@ -52,15 +52,15 @@
           <i class="fas fa-angle-down"></i>
         </a>
         <div class="drop-content">
-          <a href="timetable11.php">Time Table</a>
-          <a href="syllabus12.php">Syllabus</a>
+          <a href="time_table.php">Time Table</a>
+          <a href="syllabus.php">Syllabus</a>
           <a href="activities.php">Activities</a>
           <a href="Notice/op.pdf">Programs</a>
         </div>
       </div>
 
       <div class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="/var/www/html/admissions.html"><i class="fa fa-folder" aria-hidden="true"></i> Admission  <span class="caret"></span>
+        <a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-folder" aria-hidden="true"></i> Admission  <span class="caret"></span>
           <i class="fas fa-angle-down"></i>
         </a>
         <div class="drop-content">

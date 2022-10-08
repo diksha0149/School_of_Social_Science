@@ -3,27 +3,31 @@
 
 <head>
 <meta charset="utf-8">
-    <title>Image Slider</title>
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>School of Social Science</title>
   <style>
-    /* .main2{
-      width: 100%;
-      height: 20%;
-      background-color: green;
-      position: relative;
-    } */
     .main{
       width: 100%;
       display: block;
       height:auto;
       position: absolute;
     }
-    /* .main1{
-      width: 100%;
-      height: 50px;
-      position: relative;
+    /* .main2, .main3{
+      /* position: relative; 
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      /* width: 100%;
+      height: 200px;
+      border: 2px solid black; 
+      /* margin: 10px; 
     } */
+    @media (max-width: 1080px){
+      .main{
+        display: block;
+        margin-top: 100px;
+      }
+}
   </style>
   <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" /> -->
@@ -37,8 +41,8 @@
  <div class="main2">
  <?php include 'slider.php';?>
   </div>
-  <div class="main2">
- <?php include 'rekha.php';?>
+  <div class="main3">
+  <?php include 'rekha.php';?>
   </div>
  
   </div>
