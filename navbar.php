@@ -102,7 +102,7 @@
         </div>
       </div>
       <a href="Notice/associations.pdf"><i class="fa fa-handshake-o"></i> Our Associations</a>
-      <a href="#"><i class="fa fa-bank"></i> NSS</a>
+      <a href="nss.php"><i class="fa fa-bank"></i> NSS</a>
       <a href="http://www.dauniv.ac.in/"><i class="fa fa-bank"></i> DAVV</a>
       </div>
 

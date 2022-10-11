@@ -34,9 +34,12 @@
 }
 .title {
   text-align: center;
+  /* background: yellow; */
 }
 .heading{
-  margin-top: 25px;
+  margin-top: 20px;
+  padding: 5px;
+  margin-left: 20px;
 }
 .faq {
   max-width: auto;
@@ -51,9 +54,10 @@
 
 .faq-question {
   margin: 15px;
-  height: 10px;
+  height: auto;
   font-size: 20px;
   font-weight: 900;
+  overflow-wrap: break-word;
 }
 
 .faq-toggle {
@@ -74,12 +78,13 @@
   max-height: 0;
   /* height: auto: */
   overflow: hidden;
+  overflow-wrap: break-word;
   transition: max-height 0.8s ease-in-out;
 }
 .faq-answer a{
   text-decoration: none;
   color: black;
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 .faq-answer ul li{
   padding: 10px;
@@ -99,7 +104,7 @@
   <?php include 'navbar.php';?>
     <div class="container">
       <h1 class="title">Time Table</h1>
-      <h2 class="heading">Diploma Courses</h2>
+      <h2 class="heading">DIPLOMA COURSES</h2>
       <div class="faq">
         <h2 class="faq-question">Diploma Courses</h2>
         <div class="faq-toggle">
@@ -112,7 +117,7 @@
             </ul>
         </div>
       </div>
-      <h2 class="heading">Post Graduation Courses</h2>
+      <h2 class="heading">POST GRADUATION COURSES</h2>
       <div class="faq">
         <div class="faq-question">M.A. CLINICAL PSYCHOLOGY</div>
         <div class="faq-toggle">
@@ -189,7 +194,7 @@
         </div>
       </div>
 
-      <h2 class="heading">Under Graduation Courses</h2>
+      <h2 class="heading">UNDER GRADUATION COURSES</h2>
       <div class="faq">
         <h2 class="faq-question">B.A. GEOGRAPHY</h2>
         <div class="faq-toggle">

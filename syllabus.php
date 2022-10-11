@@ -41,7 +41,7 @@
 <a href="Notice/time_table_MBA_RD.pdf" style="color:black ;" >1. Diploma and Certificate Courses</a>
 </h3>
 <h3>
-<a href="Notice/B.S.W.pdf" style="color:black;">2. Under Graduate</a>
+<a href="Notice/B.S.W..pdf" style="color:black;">2. Under Graduate</a>
 </h3>
 <h3>
 <a href="Notice/TIME_TABLE_MSW,_BSW,_MA_SOCIOLOGY.pdf" style="color:black;">3. Post Graduate</a>
