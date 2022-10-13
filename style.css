@@ -9,6 +9,9 @@
     background-size: cover;
     background-attachment: fixed;
   }
+  .soss_logo img{
+    width: 20px;
+  }
   .navbar{
     height: 70px;
     width: 100%;
@@ -32,7 +35,7 @@
     font-size: 14px;
   }
   .navbar .nav-links a {
-    padding: 10px 12px;
+    padding: 10px 10px;
     text-decoration: none;
     font-weight: 550;
     color: white;

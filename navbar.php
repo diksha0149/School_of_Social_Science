@@ -9,12 +9,46 @@
   <title>School of Social Science</title>
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <style>
+      .soss_logo {
+        height: 100px;
+        weight:1000%;
+        align-items: center;
+        justify-content: center;
+        display: block;
+        margin: auto;
+        /* margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto; */
+      }
+      @media screen and (max-width: 600px) {
+        .soss_logo {
+        height: 100px;
+        weight:1000%;
+        align-items: center;
+        justify-content: center;
+        display: block;
+        margin: auto;
+        /* margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto; */
+      } 
+      .soss_logo {
+        height: 80px;
+        background: red;
+      }
+       }
+       .navbar .nav-links a {
+        padding: 5px 6px;
+  }
+    </style>
 </head>
 
 <body>
+<img class="soss_logo" src="Images/sosslogo.png"></img>
   <div class="navbar">
-
     <!-- Navbar logo -->
+   
     <div class="nav-header">
       <div class="nav-logo">
         <a href="#">
@@ -41,7 +75,7 @@
           <i class="fas fa-angle-down"></i>
         </a>
         <div class="drop-content">
-          <a href="#">Vision/Mission</a>
+          <a href="Notice/vision&mission.pdf">Vision/Mission</a>
           <a href="acheivement.php">Achievements</a>
           <a href="society.php">SOSS For Society</a>
         </div>
@@ -88,9 +122,9 @@
           <i class="fas fa-angle-down"></i>
         </a>
         <div class="drop-content">
-          <a  href="event_academic.php" id="acad">Academics</a>
-          <a href="event_cultural.php" id="cult">Cultural</a>
-          <a href="event_community.php" id="commu">Community</a>
+          <a  href="academics.php" id="acad">Academics</a>
+          <a href="cultural.php" id="cult">Cultural</a>
+          <a href="community.php" id="commu">Community</a>
           <a href="activities.php">Activities</a>
         </div>
       </div>
@@ -106,6 +140,8 @@
       </div>
       <a href="Notice/associations.pdf"><i class="fa fa-handshake-o"></i> Our Associations</a>
       <a href="nss.php"><i class="fa fa-bank"></i> NSS</a>
+      <a href="laurels.php"><i class="fa fa-bank"></i> LAURELS</a>
+      <a href="news_highlight.php"><i class="fa fa-bank"></i> News highlight</a>
       <a href="http://www.dauniv.ac.in/"><i class="fa fa-bank"></i> DAVV</a>
       </div>
 
