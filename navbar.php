@@ -52,10 +52,12 @@
           <i class="fas fa-angle-down"></i>
         </a>
         <div class="drop-content">
-          <a href="time_table.php">Time Table</a>
+        <a href="Notice/op.pdf">Programs</a>
+        <a href="Notice/op.pdf">Schemes</a>
           <a href="syllabus.php">Syllabus</a>
-          <a href="activities.php">Activities</a>
-          <a href="Notice/op.pdf">Programs</a>
+          <a href="time_table.php">Time Table</a>
+          
+          
         </div>
       </div>
 
@@ -77,8 +79,8 @@
         <div class="drop-content">
           <a  href="Notice/Placement.pdf" id="acad">Placements</a>
           <a href="research.php" id="cult">Research</a>
-          <a href="event_cultural.php" id="cult">Field Visit</a>
-          <a href="Notice/Internship.pdf" id="commu">Internships</a>
+         <a href="Notice/Internship.pdf" id="commu">Internships</a>
+         <a href="Field_visit.php" id="cult">Field Visit</a>
         </div>
       </div>
       <div class="dropdown">
@@ -89,6 +91,7 @@
           <a  href="event_academic.php" id="acad">Academics</a>
           <a href="event_cultural.php" id="cult">Cultural</a>
           <a href="event_community.php" id="commu">Community</a>
+          <a href="activities.php">Activities</a>
         </div>
       </div>
 

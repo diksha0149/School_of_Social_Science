@@ -272,6 +272,22 @@ body{
         </div>
         <!--image card end-->
         <!--image card start-->
+        <!--image card end-->
+        <!--image card start-->
+        <div class="image">
+          <img src="images/Dr. Lavina Singh.jpg" alt="">
+          <a href="#" class="read-more">Dr. Lavina Singh</a>
+          <div class="details">
+            <div class="more">
+              <a href="#" class="read-more">Dr. Lavina Singh</a>
+              <div class="icon-links">
+                <a href="images/Dr. Lavina Singh.pdf"><i class="fas fa-paperclip"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--image card end-->
+        <!--image card start-->
         <div class="image">
           <img src="images/Dr.Shilpa Kumrawat.jpg" alt="">
           <div class="details">
@@ -283,6 +299,10 @@ body{
             </div>
           </div>
         </div>
+        </div>
+      <!--image row end-->
+      <!--image row start-->
+      <div class="row">
         <!--image card end-->
         <!--image card start-->
         <div class="image">
@@ -296,10 +316,7 @@ body{
             </div>
           </div>
         </div>
-        </div>
-      <!--image row end-->
-      <!--image row start-->
-      <div class="row">
+        
         <!--image card end-->
         <!--image card start-->
         <div class="image">
@@ -326,6 +343,10 @@ body{
             </div>
           </div>
         </div>
+        </div>
+      <!--image row end-->
+      <!--image row start-->
+      <div class="row">
         <!--image card end-->
         <!--image card start-->
         <div class="image">
@@ -339,10 +360,7 @@ body{
             </div>
           </div>
         </div>
-        </div>
-      <!--image row end-->
-      <!--image row start-->
-      <div class="row">
+        
         <!--image card end-->
         <!--image card start-->
         <div class="image">
@@ -370,7 +388,10 @@ body{
           </div>
         </div>
         <!--image card end-->
-        
+        </div>
+      <!--image row end-->
+      <!--image row start-->
+      <div class="row">
         <!--image card start-->
         <div class="image">
           <img src="images/Dr. Shefali Rajwal.jpg" alt="">
@@ -383,10 +404,7 @@ body{
             </div>
           </div>
         </div>
-        </div>
-      <!--image row end-->
-      <!--image row start-->
-      <div class="row">
+        
         <!--image card end-->
         <!--image card start-->
         <div class="image">
@@ -414,7 +432,10 @@ body{
           </div>
         </div>
         <!--image card end-->
-        
+        </div>
+      <!--image row end-->
+      <!--image row start-->
+      <div class="row">
         <!--image card start-->
         <div class="image">
           <img src="images/Ms.Neetu.jpg" alt="">
@@ -427,10 +448,7 @@ body{
             </div>
           </div>
         </div>
-        </div>
-      <!--image row end-->
-      <!--image row start-->
-      <div class="row">
+        
         <!--image card end-->
         <!--image card start-->
         <div class="image">
@@ -458,7 +476,10 @@ body{
           </div>
         </div>
         <!--image card end-->
-        
+        </div>
+      <!--image row end-->
+      <!--image row start-->
+      <div class="row">
         <!--image card start-->
         <div class="image">
           <img src="images/Mr.KartikeyaBhardwaj.jpg" alt="">
@@ -471,10 +492,7 @@ body{
             </div>
           </div>
         </div>
-        </div>
-      <!--image row end-->
-      <!--image row start-->
-      <div class="row">
+       
         <!--image card end-->
         <!--image card start-->
         <div class="image">
@@ -502,7 +520,10 @@ body{
           </div>
         </div>
         <!--image card end-->
-       
+        </div>
+      <!--image row end-->
+      <!--image row start-->
+      <div class="row">
         <!--image card start-->
         <div class="image">
           <img src="images/Mr. Suhel Khan.jpg" alt="">
@@ -515,10 +536,7 @@ body{
             </div>
           </div>
         </div>
-        </div>
-      <!--image row end-->
-      <!--image row start-->
-      <div class="row">
+        
         <!--image card end-->
         <!--image card start-->
         <div class="image">
@@ -546,6 +564,10 @@ body{
           </div>
         </div>
         <!--image card end-->
+        </div>
+      <!--image row end-->
+      <!--image row start-->
+      <div class="row">
         <!--image card start-->
         <div class="image">
           <img src="images/Ms. Jyoti Joshi.jpg" alt="">
