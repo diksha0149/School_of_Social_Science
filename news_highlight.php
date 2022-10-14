@@ -86,6 +86,6 @@
      <div class="box1"><img src="news_highlight/11.jpg" alt=""></div>
      <div class="box1"><img src="news_highlight/12.jpg" alt=""></div>
   </div>
-
+  <?php include 'footer.php';?>
 </body>
 </html>

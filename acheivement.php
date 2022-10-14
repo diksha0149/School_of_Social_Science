@@ -9,7 +9,7 @@
         .feed{
             width: 100%;
             top: 100px;
-           position: absolute;
+           /* position: relative; */
         }
         .feedback_head{
             font-size: 40px;
@@ -47,5 +47,6 @@
 </h3>
 
 </div>
+<?php include 'footer.php';?>
 </body>
 </html>

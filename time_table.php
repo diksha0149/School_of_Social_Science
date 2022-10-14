@@ -14,7 +14,7 @@
     />
     <link rel="stylesheet" href="style.css" />
     <style>
-        @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+        /* @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"); */
 
 
 .container {
@@ -23,7 +23,8 @@
   /* justify-content: center;
   align-items: center; */
   margin-top: 20px;
-  height: 100vh;
+  /* position: relative; */
+  height: auto;
 }
 .sub_menu{
     /* position: relative; */
@@ -96,6 +97,14 @@
 
 .faq.active .faq-icon {
   transform: rotate(180deg);
+}
+.footer{
+  bottom: 0px;
+  /* width: 20%;
+  height: 200px;
+  border: 2px solid black; */
+  top: 40px;
+  position: relative;
 }
 
     </style>
@@ -251,6 +260,9 @@
       </div>
 
     </div>
+    <div class="footer">
+    <?php include 'footer.php';?>
+</div>
     <script>
         const faqs = document.querySelectorAll(".faq");
 

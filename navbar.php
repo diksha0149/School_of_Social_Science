@@ -10,23 +10,44 @@
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <style>
-      .soss_logo {
+      .sosslogo {
         height: 100px;
-        weight:1000%;
+        weight:100%;
         align-items: center;
         justify-content: center;
         display: block;
         margin: auto;
+        z-index: 10000;
+        background-image: url('Images/sosslogo.png');
+        background-size: contain;
+        /* background: green; */
+        border: 2px solid black;
+        background-repeat: no-repeat;
         /* margin-top: 0px;
         margin-left: auto;
         margin-right: auto; */
-      }
-      @media screen and (max-width: 600px) {
-        .soss_logo {
-        height: 100px;
-        weight:1000%;
         align-items: center;
         justify-content: center;
+        text-align: center;
+      }
+      @media screen and (max-width: 700px){
+        .sosslogo{
+          background-image: url('Images/sosslogo.png');
+          background-size: contain;
+          object-fit: fit;
+          width: 100%;
+          background-repeat: no-repeat;
+          /* height: 100px;
+          width: auto; */
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .sosslogo {
+        height: 100px;
+        weight:100%;
+        align-items: center;
+        justify-content: center;
+        /* background-image: url('Images/sosslogo.png'); */
         display: block;
         margin: auto;
         /* margin-top: 0px;
@@ -45,7 +66,9 @@
 </head>
 
 <body>
-<img class="soss_logo" src="Images/sosslogo.png"></img>
+<!-- <img class="soss_logo" src="Images/sosslogo.png"></img> -->
+<div class="sosslogo">
+</div>
   <div class="navbar">
     <!-- Navbar logo -->
    
@@ -139,9 +162,9 @@
         </div>
       </div>
       <a href="Notice/associations.pdf"><i class="fa fa-handshake-o"></i> Our Associations</a>
-      <a href="nss.php"><i class="fa fa-bank"></i> NSS</a>
-      <a href="laurels.php"><i class="fa fa-bank"></i> LAURELS</a>
-      <a href="news_highlight.php"><i class="fa fa-bank"></i> News highlight</a>
+      <a href="nss.php"><i ></i> NSS</a>
+      <a href="laurels.php"><i ></i> LAURELS</a>
+      <a href="news_highlight.php"><i ></i> News highlight</a>
       <a href="http://www.dauniv.ac.in/"><i class="fa fa-bank"></i> DAVV</a>
       </div>
 

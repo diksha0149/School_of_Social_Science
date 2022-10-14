@@ -53,5 +53,6 @@
 </h3>
 
 </div>
+<?php include 'footer.php';?>
 </body>
 </html>

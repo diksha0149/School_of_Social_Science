@@ -44,7 +44,9 @@
   <div class="main3">
   <?php include 'rekha.php';?>
   </div>
- 
+  <div class="main4">
+  <?php include 'footer.php';?>
+  </div>
   </div>
 </body>
 

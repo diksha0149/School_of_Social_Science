@@ -89,6 +89,6 @@
         <div class="box1"><img src="nss/20.jpg" alt></div>
         <div class="box1"><img src="nss/21.jpg" alt></div>
   </div>
-
+  <?php include 'footer.php';?>
 </body>
 </html>

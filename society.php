@@ -78,6 +78,6 @@
      <div class="box1"><img src="images/society2.png" alt=""></div>
 
   </div>
-
+  <?php include 'footer.php';?>
 </body>
 </html>

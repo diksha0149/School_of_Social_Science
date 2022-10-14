@@ -585,7 +585,7 @@ body{
       <!--image row end-->
     </div>
     <!--image card layout end-->
-
+    <?php include 'footer.php';?>
   </body>
 </html>
       

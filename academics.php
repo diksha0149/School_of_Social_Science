@@ -99,6 +99,6 @@
    <div class="box1"><img src="images/event reserchm.jpg" alt=""></div>
 
 </div>
-
+<?php include 'footer.php';?>
 </body>
 </html>
