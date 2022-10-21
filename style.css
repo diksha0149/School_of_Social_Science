@@ -18,7 +18,7 @@
     padding: 20px 10px;
     background-color: #1b4cd3;
     position: relative;
-    z-index: -100;
+    z-index: 100;
     align-items: center;
   }
   .navbar .nav-header{

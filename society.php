@@ -65,6 +65,11 @@
             margin-top:100px;
         }
        }
+       .foot{
+       position: absolute;
+            bottom: 0;
+            left: 0;
+       }
     </style>
 </head>
 <body>
@@ -78,6 +83,8 @@
      <div class="box1"><img src="images/society2.png" alt=""></div>
 
   </div>
+  <div class="foot">
   <?php include 'footer.php';?>
+    </div>
 </body>
 </html>

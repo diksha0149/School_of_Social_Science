@@ -66,19 +66,15 @@
 </head>
 
 <body>
-<!-- <img class="soss_logo" src="Images/sosslogo.png"></img> -->
-<div class="sosslogo">
-</div>
   <div class="navbar">
-    <!-- Navbar logo -->
    
-    <div class="nav-header">
+    <!-- <div class="nav-header">
       <div class="nav-logo">
         <a href="#">
-          <!-- <img src="logo.png" width="100px" alt="logo"> -->
+          <!-- <img src="logo.png" width="100px" alt="logo"> 
         </a>
       </div>
-    </div>
+    </div> -->
 
     <!-- responsive navbar toggle button -->
     <input type="checkbox" id="nav-check">
@@ -130,7 +126,7 @@
       </div>
       <a href="faculty.php"><i class="fa fa-handshake-o"></i> Faculty</a>
       <div class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown"  href="events.php"><i class="fa fa-users" aria-hidden="true"></i> Student's Corner<span class="caret" ></span>
+        <a class="dropdown-toggle" data-toggle="dropdown"  href=""><i class="fa fa-users" aria-hidden="true"></i> Student's Corner<span class="caret" ></span>
           <i class="fas fa-angle-down"></i>
         </a>
         <div class="drop-content">
@@ -141,7 +137,7 @@
         </div>
       </div>
       <div class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown"  href="events.php"><i class="fa fa-trophy" aria-hidden="true"></i> Events<span class="caret" ></span>
+        <a class="dropdown-toggle" data-toggle="dropdown"  href=""><i class="fa fa-trophy" aria-hidden="true"></i> Events<span class="caret" ></span>
           <i class="fas fa-angle-down"></i>
         </a>
         <div class="drop-content">

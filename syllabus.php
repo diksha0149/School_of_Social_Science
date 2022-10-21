@@ -31,9 +31,11 @@
         .feed a{
             text-decoration: none;
         }
-        .footer{
-            bottom: 0px;
-        }
+        .foot{
+       position: absolute;
+            bottom: 0;
+            left: 0;
+       }
     </style>
 </head>
 <body>
@@ -54,7 +56,7 @@
 </h3>
 
 </div>
-<div class="footer">
+<div class="foot">
 <?php include 'footer.php';?>
 <div>
 </body>

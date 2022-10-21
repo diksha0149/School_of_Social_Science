@@ -10,6 +10,7 @@
       width: 100%;
       display: block;
       height:auto;
+      object-fit: cover;
       position: absolute;
     }
     /* .main2, .main3{
@@ -41,10 +42,16 @@
  <div class="main2">
  <?php include 'slider.php';?>
   </div>
+  <div class="main2">
+ <?php include 'latest_news.php';?>
+  </div>
   <div class="main3">
   <?php include 'rekha.php';?>
   </div>
   <div class="main4">
+  <?php include 'highlights.php';?>
+  </div>
+  <div class="main5">
   <?php include 'footer.php';?>
   </div>
   </div>
