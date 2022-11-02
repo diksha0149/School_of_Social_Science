@@ -8,8 +8,8 @@
     <style>
         .feed{
             width: 100%;
-            top: 100px;
-           position: absolute;
+            /* top: 100px; */
+           position: relative;
         }
         .feedback_head{
             font-size: 40px;
@@ -32,7 +32,7 @@
             text-decoration: none;
         }
         .foot{
-       position: absolute;
+       position: relative;
             bottom: 0;
             left: 0;
        }

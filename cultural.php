@@ -73,7 +73,13 @@
 <!-- <h2>Teacher's Day</h2> -->
 
   <div class="wraper">
-    
+  <div class="box1"><img src="cultural/16.jpg" alt=""></div>
+     <div class="box1"><img src="cultural/17.jpg" alt=""></div>
+     <div class="box1"><img src="cultural/18.jpg" alt=""></div>
+     <div class="box1"><img src="cultural/19.jpg" alt=""></div>
+     <div class="box1"><img src="cultural/20.jpg" alt=""></div>
+     <div class="box1"><img src="cultural/21.jpg" alt=""></div>
+     <div class="box1"><img src="cultural/22.jpg" alt=""></div>
      <div class="box1"><img src="images/teachersday1.jpg" alt=""></div>
      <div class="box1"><img src="images/teachersday3.jpg" alt=""></div>
      <div class="box1"><img src="images/teachers.jpg" alt=""></div>
@@ -95,16 +101,6 @@
      <div class="box1"><img src="cultural/13.jpg" alt=""></div>
      <div class="box1"><img src="cultural/14.jpg" alt=""></div>
      <div class="box1"><img src="cultural/15.jpg" alt=""></div>
-     <div class="box1"><img src="cultural/16.jpg" alt=""></div>
-     <div class="box1"><img src="cultural/17.jpg" alt=""></div>
-     <div class="box1"><img src="cultural/18.jpg" alt=""></div>
-     <div class="box1"><img src="cultural/19.jpg" alt=""></div>
-     <div class="box1"><img src="cultural/20.jpg" alt=""></div>
-     <div class="box1"><img src="cultural/21.jpg" alt=""></div>
-     <div class="box1"><img src="cultural/22.jpg" alt=""></div>
-
-     
-
   </div>
   <?php include 'footer.php';?>
 </body>

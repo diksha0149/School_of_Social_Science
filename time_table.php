@@ -126,7 +126,71 @@
             </ul>
         </div>
       </div>
+      <h2 class="heading">UNDER GRADUATION COURSES</h2>
+      <div class="faq">
+        <h2 class="faq-question">B.S.W.</h2>
+        <div class="faq-toggle">
+          <i class="fa-solid fa-angle-down faq-icon"></i>
+        </div>
+        <div class="faq-answer">
+        <ul>
+                <li><a href="TimeTable/BSW 1 sem.jpg">B.S.W. SEM 1</a></li>
+                <li><a href="TimeTable/BSW 3 sem.jpg">B.S.W. SEM 3</a></li>
+                <li><a href="TimeTable/BSW 5 sem.jpg">B.S.W. SEM 5</a></li>
+            </ul>
+        </div>
+      </div>
+      <div class="faq">
+        <h2 class="faq-question">B.A. GEOGRAPHY</h2>
+        <div class="faq-toggle">
+          <i class="fa-solid fa-angle-down faq-icon"></i>
+        </div>
+        <div class="faq-answer">
+        <ul>
+                <li><a href="TimeTable/B.A. geography 1 sem.jpg">B.A. GEOGRAPHY SEM 1</a></li>
+                <li><a href="TimeTable/B.A. geography 3 sem.jpg">B.A. GEOGRAPHY SEM 3</a></li>
+                <li><a href="TimeTable/B.A. geography 5 sem.jpg">B.A. GEOGRAPHY SEM 5</a></li>
+            </ul>
+        </div>
+      </div>
+      <div class="faq">
+        <h2 class="faq-question">B.A. PSYCHOLOGY</h2>
+        <div class="faq-toggle">
+          <i class="fa-solid fa-angle-down faq-icon"></i>
+        </div>
+        <div class="faq-answer">
+        <ul>
+        <li><a href="TimeTable/B.A. psychology 1 sem.jpg">B.A. PSYCHOLOGY SEM 1</a></li>
+                <li><a href="TimeTable/B.A. psychology 3 sem.jpg">B.A. PSYCHOLOGY SEM 3</a></li>
+                <li><a href="TimeTable/B.A. psychology 5 sem.jpg">B.A. PSYCHOLOGY SEM 5</a></li>
+            </ul>
+        </div>
+      </div>
+      <div class="faq">
+        <h2 class="faq-question">B.A.SOCIOLOGY</h2>
+        <div class="faq-toggle">
+          <i class="fa-solid fa-angle-down faq-icon"></i>
+        </div>
+        <div class="faq-answer">
+        <ul>
+                <li><a href="TimeTable/BA Sociology 1 sem.jpg">B.A.SOCIOLOGY SEM 1</a></li>
+                <li><a href="TimeTable/BA Sociology 3 sem.jpg">B.A.SOCIOLOGY SEM 3</a></li>
+            </ul>
+        </div>
+      </div>
       <h2 class="heading">POST GRADUATION COURSES</h2>
+      <div class="faq">
+        <h2 class="faq-question">M.S.W.</h2>
+        <div class="faq-toggle">
+          <i class="fa-solid fa-angle-down faq-icon"></i>
+        </div>
+        <div class="faq-answer">
+        <ul>
+                <li><a href="TimeTable/MSW 1 sem.jpg">M.S.W. SEM 1</a></li>
+                <li><a href="TimeTable/MSW 3rd Sem.jpg">M.S.W. SEM 3</a></li>
+            </ul>
+        </div>
+      </div>
       <div class="faq">
         <div class="faq-question">M.A. CLINICAL PSYCHOLOGY</div>
         <div class="faq-toggle">
@@ -190,74 +254,11 @@
         </div>
       </div>
 
-      <div class="faq">
-        <h2 class="faq-question">M.S.W.</h2>
-        <div class="faq-toggle">
-          <i class="fa-solid fa-angle-down faq-icon"></i>
-        </div>
-        <div class="faq-answer">
-        <ul>
-                <li><a href="TimeTable/MSW 1 sem.jpg">M.S.W. SEM 1</a></li>
-                <li><a href="TimeTable/MSW 3rd Sem.jpg">M.S.W. SEM 3</a></li>
-            </ul>
-        </div>
-      </div>
+      
 
-      <h2 class="heading">UNDER GRADUATION COURSES</h2>
-      <div class="faq">
-        <h2 class="faq-question">B.A. GEOGRAPHY</h2>
-        <div class="faq-toggle">
-          <i class="fa-solid fa-angle-down faq-icon"></i>
-        </div>
-        <div class="faq-answer">
-        <ul>
-                <li><a href="TimeTable/B.A. geography 1 sem.jpg">B.A. GEOGRAPHY SEM 1</a></li>
-                <li><a href="TimeTable/B.A. geography 3 sem.jpg">B.A. GEOGRAPHY SEM 3</a></li>
-                <li><a href="TimeTable/B.A. geography 5 sem.jpg">B.A. GEOGRAPHY SEM 5</a></li>
-            </ul>
-        </div>
-      </div>
+     
 
-      <div class="faq">
-        <h2 class="faq-question">B.A. PSYCHOLOGY</h2>
-        <div class="faq-toggle">
-          <i class="fa-solid fa-angle-down faq-icon"></i>
-        </div>
-        <div class="faq-answer">
-        <ul>
-        <li><a href="TimeTable/B.A. psychology 1 sem.jpg">B.A. PSYCHOLOGY SEM 1</a></li>
-                <li><a href="TimeTable/B.A. psychology 3 sem.jpg">B.A. PSYCHOLOGY SEM 3</a></li>
-                <li><a href="TimeTable/B.A. psychology 5 sem.jpg">B.A. PSYCHOLOGY SEM 5</a></li>
-            </ul>
-        </div>
-      </div>
-
-      <div class="faq">
-        <h2 class="faq-question">B.A.SOCIOLOGY</h2>
-        <div class="faq-toggle">
-          <i class="fa-solid fa-angle-down faq-icon"></i>
-        </div>
-        <div class="faq-answer">
-        <ul>
-                <li><a href="TimeTable/BA Sociology 1 sem.jpg">B.A.SOCIOLOGY SEM 1</a></li>
-                <li><a href="TimeTable/BA Sociology 3 sem.jpg">B.A.SOCIOLOGY SEM 3</a></li>
-            </ul>
-        </div>
-      </div>
-
-      <div class="faq">
-        <h2 class="faq-question">B.S.W.</h2>
-        <div class="faq-toggle">
-          <i class="fa-solid fa-angle-down faq-icon"></i>
-        </div>
-        <div class="faq-answer">
-        <ul>
-                <li><a href="TimeTable/BSW 1 sem.jpg">B.S.W. SEM 1</a></li>
-                <li><a href="TimeTable/BSW 3 sem.jpg">B.S.W. SEM 3</a></li>
-                <li><a href="TimeTable/BSW 5 sem.jpg">B.S.W. SEM 5</a></li>
-            </ul>
-        </div>
-      </div>
+      
 
     </div>
     <div class="footer">

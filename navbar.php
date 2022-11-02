@@ -53,6 +53,8 @@
         /* margin-top: 0px;
         margin-left: auto;
         margin-right: auto; */
+        z-index: 100;
+        position: fixed;
       } 
       .soss_logo {
         height: 80px;
@@ -62,14 +64,18 @@
        .navbar .nav-links a {
         padding: 5px 6px;
   }
+  .head_of_all{
+    position: relative;
+  }
     </style>
 </head>
 
 <body>
-<div class="navheader">
+<div class="head_of_all">
+   <div class="navheader">
       <div class="navlogo">
         <a href="#">
-          <img src="images/sosslogo.png" width="100%" alt="logo"> 
+          <img src="Images/sosslogo.png" width="100%" alt="logo"> 
         </a>
       </div>
     </div>
@@ -85,13 +91,13 @@
 
     <!-- responsive navbar toggle button -->
     <input type="checkbox" id="nav-check">
-    <div class="nav-btn">
-      <label for="nav-check">
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
-    </div>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
 
     <!-- Navbar items -->
     <div class="nav-links" id="nav-link">
@@ -112,7 +118,7 @@
           <i class="fas fa-angle-down"></i>
         </a>
         <div class="drop-content">
-        <a href="Notice/op.pdf">Programs</a>
+        <a href="programs.php">Programs</a>
         <a href="Notice/op.pdf">Schemes</a>
           <a href="syllabus.php">Syllabus</a>
           <a href="time_table.php">Time Table</a>
@@ -133,18 +139,18 @@
       </div>
       <a href="faculty.php"><i class="fa fa-handshake-o"></i> Faculty</a>
       <div class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown"  href=""><i class="fa fa-users" aria-hidden="true"></i> Student's Corner<span class="caret" ></span>
+        <a class="dropdown-toggle" data-toggle="dropdown"  href="#"><i class="fa fa-users" aria-hidden="true"></i> Student's Corner<span class="caret" ></span>
           <i class="fas fa-angle-down"></i>
         </a>
         <div class="drop-content">
           <a  href="Notice/Placement.pdf" id="acad">Placements</a>
           <a href="research.php" id="cult">Research</a>
          <a href="Notice/Internship.pdf" id="commu">Internships</a>
-         <a href="Field_visit.php" id="cult">Field Visit</a>
+         <a href="Field_visit.php" id="cult">Field Visits</a>
         </div>
       </div>
       <div class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown"  href=""><i class="fa fa-trophy" aria-hidden="true"></i> Events<span class="caret" ></span>
+        <a class="dropdown-toggle" data-toggle="dropdown"  href="#"><i class="fa fa-trophy" aria-hidden="true"></i> Events<span class="caret" ></span>
           <i class="fas fa-angle-down"></i>
         </a>
         <div class="drop-content">
@@ -167,11 +173,12 @@
       <a href="Notice/associations.pdf"><i class="fa fa-handshake-o"></i> Our Associations</a>
       <a href="nss.php"><i ></i> NSS</a>
       <a href="laurels.php"><i ></i> LAURELS</a>
-      <a href="news_highlight.php"><i ></i> News highlight</a>
+      <a href="news_highlight.php"><i ></i> News Highlights</a>
       <a href="http://www.dauniv.ac.in/"><i class="fa fa-bank"></i> DAVV</a>
       </div>
 
   </div>
+</div>
   <script>
     // let navbar= document.getElementById("nav-link");
     // let dropdown_icon=document.querySelector(".nav-btn");
@@ -193,6 +200,7 @@
     //   }
     // )
   </script>
+
 </body>
 
 </html>

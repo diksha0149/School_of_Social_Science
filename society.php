@@ -66,7 +66,7 @@
         }
        }
        .foot{
-       position: absolute;
+       position: relative;
             bottom: 0;
             left: 0;
        }

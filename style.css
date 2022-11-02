@@ -49,9 +49,13 @@
   }
   @media (max-width:1250px) {
     .navbar{
-      position: fixed;
-      top: 0%;
+      /* position: fixed; */
+      top: auto;
     }
+    .head_of_all{
+      position: fixed;
+    }
+    
     .navbar .nav-btn{
       display: inline-block;
       position: absolute;

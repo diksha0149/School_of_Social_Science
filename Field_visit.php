@@ -65,7 +65,7 @@
 </head>
 <body>
 <?php include 'navbar.php';?>
-<h1>Field Visit</h1>
+<h1>Field Visits</h1>
   <div class="wraper">
     
      <div class="box1"><img src="field_visit/1.jpg" alt=""></div>

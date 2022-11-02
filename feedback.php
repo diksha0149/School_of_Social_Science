@@ -8,8 +8,8 @@
     <style>
         .feed{
             width: 100%;
-            top: 100px;
-           position: absolute;
+            /* top: 100px; */
+           position: relative;
         }
         .feedback_head{
             font-size: 40px;
@@ -31,6 +31,11 @@
         .feed a{
             text-decoration: none;
         }
+        .foot{
+       position: relative;
+            bottom: 0;
+            left: 0;
+       }
     </style>
 </head>
 <body>
@@ -53,6 +58,8 @@
 </h3>
 
 </div>
-<?php include 'footer.php';?>
+<div class="foot">
+  <?php include 'footer.php';?>
+    </div>
 </body>
 </html>

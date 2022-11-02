@@ -32,7 +32,8 @@
             text-decoration: none;
         }
         .foot{
-            position: absolute;
+            width: 100%;
+            position: relative;
             bottom: 0;
             left: 0;
         }

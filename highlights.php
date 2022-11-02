@@ -57,23 +57,23 @@
 </head>
 <body>
 <div class="outer_box"> 
-    <div class="contain"><a href="Notice/event_INDORE_FOR_KERALA.pdf">
-    <img src="images/kerela1.jpg" alt="Snow" style="width:100%;">
+    <div class="contain"><a href="#">
+    <img src="images/2.png" alt="Snow" style="width:100%;">
     <div class="centered">"Indore For Kerela" An Initiative By SOSS</div>
     </a>
     </div>
-    <div class="contain"><a href="Notice/event_SUSTAINABLE_AGRICULTURE_DEVELOPMENT.pdf">
-    <img src="images/sustainable3.jpg" alt="Snow" style="width:100%;">
+    <div class="contain"><a href="#">
+    <img src="images/3.png" alt="Snow" style="width:100%;">
     <div class="centered">Two Days Workshop on "Issues Of Sustainable Agricultural Development (15/11/18 to 16/11/18)"</div>
     </a>    
     </div>
-    <div class="contain"><a href="Notice/event_NATIONAL_CONFERENCE_ON_GENDER_EQUITY.pdf">
-    <img src="images/gender2.jpg" alt="Snow" style="width:100%;">
+    <div class="contain"><a href="#">
+    <img src="images/4.jpg" alt="Snow" style="width:100%;">
     <div class="centered">National Conference On "Gender Equity In India" (03/11/18)</div>
     </a>
     </div>
-    <div class="contain"><a href="Notice/event_WORKSHOP_ON_RESEARCH_METHODOLOGY.pdf">
-    <img src="images/6days.jpg" alt="Snow" style="width:100%;">
+    <div class="contain"><a href="#">
+    <img src="images/5.jpg" alt="Snow" style="width:100%;">
     <div class="centered">Six Days Workshop on "Research Methodology" (24/09/18 to 29/09/18)</div>
     </a>
     </div>
