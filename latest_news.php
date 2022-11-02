@@ -21,10 +21,10 @@
             animation: marquee 5s linear infinite;
         }
         .news{
-            width:80%;
+            width:100%;
             direction:up;
             margin: 10px auto;
-            height: 200px;
+            height: 500px;
             animation: marquee 5s linear infinite;
         }
         .news_head{

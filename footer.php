@@ -23,6 +23,15 @@
         padding: 20px;
         color: white;
       }
+      a{
+        color: white;
+      }
+      .footer-icons{
+        display: inline-flex;
+      }
+      .footer-icons h3{
+        padding: 10px;
+      }
       @media screen and (max-width: 1000px) {
            .footer{
             grid-template-columns: auto;
@@ -33,12 +42,18 @@
 </head>
 <body>
 <div class="footer">
-    <div class="div1">Address:- School of Social Science, First Flooor, Infront of SBI Bank, DAVV, Bhawarkua , Indore</div>
+    <div class="div1">
+      <p>Address:- School of Social Science, First Flooor, Infront of SBI Bank, DAVV, Bhawarkua , Indore</p>
+    <div class="footer-icons">                      
+        <h3><a href="https://www.facebook.com/soss.davvindore/"  ><i class="fab fa-facebook-square mx-5 "></i></a> </h3>
+        <h3><a href="https://www.instagram.com/school_of_socialsciences/"><i class=" fab fa-instagram mx-5"></i></a></h3> 
+        </div>
+        </div>
     <div class="div1">
         <div>Right to Information ! Statue ! Ordinance! Regulation ! Adhiniyam ! Guidelines for Admission!
         </div>
         <div>2014: Registrar, Devi Ahilya Vishwavidyalaya, Indore (MP) India 452001</div>
-        <div><a href="about_developers.php">About Developers</a></div>
+        <div class="developer"><a href="about_developers.php">About Developers</a></div>
     </div>
 </div>
 </body>

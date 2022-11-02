@@ -42,9 +42,6 @@
  <div class="main2">
  <?php include 'slider.php';?>
   </div>
-  <div class="main2">
- <?php include 'latest_news.php';?>
-  </div>
   <div class="main3">
   <?php include 'rekha.php';?>
   </div>

@@ -18,7 +18,7 @@
         display: block;
         margin: auto;
         z-index: 10000;
-        background-image: url('Images/sosslogo.png');
+        /* background-image: url('Images/sosslogo.png'); */
         background-size: contain;
         /* background: green; */
         border: 2px solid black;
@@ -32,7 +32,7 @@
       }
       @media screen and (max-width: 700px){
         .sosslogo{
-          background-image: url('Images/sosslogo.png');
+          /* background-image: url('Images/sosslogo.png'); */
           background-size: contain;
           object-fit: fit;
           width: 100%;
@@ -66,12 +66,19 @@
 </head>
 
 <body>
+<div class="navheader">
+      <div class="navlogo">
+        <a href="#">
+          <img src="images/sosslogo.png" width="100%" alt="logo"> 
+        </a>
+      </div>
+    </div>
   <div class="navbar">
    
     <!-- <div class="nav-header">
       <div class="nav-logo">
         <a href="#">
-          <!-- <img src="logo.png" width="100px" alt="logo"> 
+          <img src="logo.png" width="100px" alt="logo"> 
         </a>
       </div>
     </div> -->

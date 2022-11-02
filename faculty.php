@@ -133,7 +133,7 @@ body{
 } */
 
 .more .read-more{
-	color: #000;
+	color: black;
 	text-decoration: none;
 	font-size: 15px;
 	font-weight: 900;
@@ -171,6 +171,9 @@ body{
     margin-top:80px;
   }
 }
+.rr{
+  color: black;
+}
 @media (max-width: 400px){
  
 	.image .details p{
@@ -200,8 +203,8 @@ body{
           <div class="details">
           <div class="more">
               <div class="read-more">
-              <a>Dr. Rekha Acharya</a>
-              <a>Head of Department</a>
+              <a class="rr">Dr. Rekha Acharya</a>
+              <a class="rr">Head of Department</a>
               </div>
               <div class="icon-links">
                 <a href="#"><i class="fas fa-paperclip"></i></a>
