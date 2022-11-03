@@ -119,7 +119,7 @@
         </a>
         <div class="drop-content">
         <a href="programs.php">Programs</a>
-        <a href="Notice/op.pdf">Schemes</a>
+        <a href="schemes.php">Schemes</a>
           <a href="syllabus.php">Syllabus</a>
           <a href="time_table.php">Time Table</a>
           

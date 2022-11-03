@@ -8,7 +8,7 @@
     <style>
         .outer_box{
             display: grid;
-            grid-template-columns: auto auto auto auto;
+            grid-template-columns: auto auto auto auto auto;
             background: none;
             margin: 10px;
         }
@@ -45,7 +45,7 @@
 }
 @media screen and (max-width: 700px) {
             .outer_box{
-            grid-template-columns: auto auto;
+            grid-template-columns: auto auto auto;
             }
 }
 @media screen and (max-width: 500px) {
@@ -58,23 +58,29 @@
 <body>
 <div class="outer_box"> 
     <div class="contain"><a href="#">
+    <img src="images/1.jpg" alt="Snow" style="width:100%;">
+    <div class="centered">MoU between District Administration and SCHOOL OF SOCIAL SCIENCES DAVV regarding the Student Police Cadet (SPC) Scheme on 21.09.2022</div>
+    </a>
+    </div>
+    <div class="contain"><a href="#">
     <img src="images/2.png" alt="Snow" style="width:100%;">
-    <div class="centered">"Indore For Kerela" An Initiative By SOSS</div>
+    <div class="centered">DEEKSHAARAMBH 2022 - INDUCTION CEREMONY</div>
     </a>
     </div>
     <div class="contain"><a href="#">
     <img src="images/3.png" alt="Snow" style="width:100%;">
-    <div class="centered">Two Days Workshop on "Issues Of Sustainable Agricultural Development (15/11/18 to 16/11/18)"</div>
+    <div class="centered">म.प्र. के महामहिम राज्यपाल श्री मंगुभाई पटैल के करकमलों द्वारा 23.03.2022 को समाज विज्ञान अध्यनशाला के भवन का शिलान्यास
+सम्पन्न हुआ.</div>
     </a>    
     </div>
     <div class="contain"><a href="#">
     <img src="images/4.jpg" alt="Snow" style="width:100%;">
-    <div class="centered">National Conference On "Gender Equity In India" (03/11/18)</div>
+    <div class="centered"> Launching of Book "अपरिग्रह" under Mahatma Gandhi Shodh Peeth, DAVV Indore. </div>
     </a>
     </div>
     <div class="contain"><a href="#">
     <img src="images/5.jpg" alt="Snow" style="width:100%;">
-    <div class="centered">Six Days Workshop on "Research Methodology" (24/09/18 to 29/09/18)</div>
+    <div class="centered">Srijan cum Sportek 2022</div>
     </a>
     </div>
 </div>

@@ -11,7 +11,7 @@
       display: block;
       height:auto;
       object-fit: cover;
-      position: absolute;
+      position: relative;
     }
     /* .main2, .main3{
       /* position: relative; 
@@ -26,9 +26,16 @@
     @media (max-width: 1080px){
       .main{
         display: block;
-        margin-top: 100px;
+        position: relative;
+        /* margin-top: 100px; */
       }
 }
+/* .main4{
+  height: auto;
+  border: 2px solid black;
+  position: relative;
+  width: 100%;
+} */
   </style>
   <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" /> -->
@@ -46,9 +53,12 @@
   <?php include 'rekha.php';?>
   </div>
   <div class="main4">
-  <?php include 'highlights.php';?>
+  <?php include 'navbar_highlights.php';?>
   </div>
   <div class="main5">
+  <?php include 'highlights.php';?>
+  </div>
+  <div class="main6">
   <?php include 'footer.php';?>
   </div>
   </div>

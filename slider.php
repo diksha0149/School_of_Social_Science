@@ -32,7 +32,7 @@
             overflow: hidden;
             /* border: 10px solid black; */
             border-radius: 8px;
-            box-shadow: 10px 25px 30px rgba(30,30,200,0.3);
+            /* box-shadow: 10px 25px 30px rgba(30,30,200,0.3); */
         }
         .wrapper{
             width: 100%;
@@ -126,7 +126,7 @@
         }
         .box2 .news{
             width: 100%;
-            height: auto;
+            height: 250px;
             /* display: inline-block; */
            color: brown;
             margin: 10px 10px auto;
@@ -142,6 +142,12 @@
         .news ul a{
             list-style-type: circle;
             color: brown;
+            margin: 10px auto;
+            padding: 10px auto;
+        }
+        .news ul li{
+            margin: 10px auto;
+            padding: 10px auto;
         }
         @media screen and (max-width: 1000px) {
            .outer-box{
@@ -159,21 +165,24 @@
            }
 
         }
+        marquee .news{
+            height: 40px;
+        }
         @media screen and (max-width: 800px) {
            .box2{
             width: 100%;
-            height: 300px;
+            height: 200px;
             overflow: scroll;
            }
            .box1{
-            height: 250px;
+            height: 300px;
             margin: 20px auto;
            }
 
         }
         @media screen and (max-width: 400px) {
            .box1{
-            height: 100px;
+            height: 150px;
             margin: 20px auto;
            }
 
@@ -183,7 +192,6 @@
         }
         marquee{
             overflow: scroll;
-            /* height: 20px; */
         }
     </style>
 </head>
@@ -208,9 +216,7 @@
         <div class="news_head">Latest News <i class="fa fa-bullhorn" aria-hidden="true"></i></div>
     <marquee class="news" onmouseover="this.stop();" onmouseout="this.start();" direction="up">
     <ul>
-        <div>
      <li><a href="Notice/VISITING-FACULTY-%20POSITIONS-SOSS.pdf">&#8226; Visiting Faculty Required for session 2022-23</a></li>
-    </div>
      <li><a href="B.A.-SCHEME-SOCIOLOGY-PSYCHOLOGY-GEOGRAPHY-22-4-22.pdf">&#8226; B.A. SCHEME SOCIOLOGY, PSYCHOLOGY, GEOGRAPHY</a></li>
      <li><a href="Notice/Scheme-of-MA-Clinical-Psychology-20-22_9-06-22.pdf">&#8226;Scheme of MA Clinical Psychology</a></li>
      <li><a href="Notice/Scheme-of-MA-Political-Science_20-22_9-6-22.pdf">&#8226; Scheme of MA Political Science</a></li>

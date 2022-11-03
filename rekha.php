@@ -11,6 +11,7 @@
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <style>
 .rekha {
+    background: #F5D0C3;
     display: grid;
     padding: 2rem;
     grid-template-columns: 300px 1fr;
@@ -27,6 +28,9 @@ img {
     max-width: 100%;
     height: auto;
 }
+p{
+  text-align: justify;
+}
 @media (max-width: 650px) {
     .rekha {
       display: block;
@@ -36,13 +40,16 @@ img {
       /* position: relative; */
       margin: 0rem 0 2rem 1rem;
       padding: 1rem;
+      text-align: justify;
       background: rgba(white, 0.8);
     }
     h1{
       text-align: center;
     }
 }
-
+ .hod{
+  font-size: 20px;
+ }
     </style>
 </head>
 
@@ -51,6 +58,8 @@ img {
 <img src="Images/Hodpic.jpg" alt="..." height="" width="" />
 <div class="text">
 <h1>Prof. Rekha Acharya</h1>
+<span class="hod">(Head Of The Department)</span><br/>
+</br>
 <p>The  School of  Social  Sciences  is  committed to  impart  socially  relevant  wide  variety  of courses for  study  in  Social Sciences  which  seeks  to  assist  in  the  creation  of  competent  and  innovative  graduates  who become good  citizens  and 
           humane individuals. These courses also aimed to holistic
           development of student through varied range of activities that include  Co-Curricular activities,Excellent communication  and interpersonal  skills  along  with  Social,  Cultural  and Ethical sensitivity and Global Awareness.</p>

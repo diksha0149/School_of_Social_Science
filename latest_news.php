@@ -43,9 +43,13 @@
         }
         ul{
             list-style-type: none;
-            margin: 10px; 
+            margin: 10px;
+            padding: 20px; 
             text-align : center; 
             animation: marquee 5s linear infinite;
+        }
+        .news ul li{
+            margin: 10px;
         }
         .news_outer a{
             color: brown;
@@ -58,6 +62,7 @@
     <marquee class="news" onmouseover="this.stop();" onmouseout="this.start();" direction="up">
     <ul>
      <li><a href="Notice/VISITING-FACULTY-%20POSITIONS-SOSS.pdf">Visiting Faculty Required for session 2022-23</a></li>
+    </br>
      <li><a href="B.A.-SCHEME-SOCIOLOGY-PSYCHOLOGY-GEOGRAPHY-22-4-22.pdf">B.A. SCHEME SOCIOLOGY, PSYCHOLOGY, GEOGRAPHY</a></li>
      <li><a href="Notice/Scheme-of-MA-Clinical-Psychology-20-22_9-06-22.pdf">Scheme of MA Clinical Psychology</a></li>
      <li><a href="Notice/Scheme-of-MA-Political-Science_20-22_9-6-22.pdf">Scheme of MA Political Science</a></li>
