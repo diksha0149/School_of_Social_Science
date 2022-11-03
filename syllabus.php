@@ -126,7 +126,7 @@
         <div class="faq-answer">
             <ul>
                 <li><a href="#">PG DIPLOMA in GUIDANCE and COUNSELLING</a></li>
-                <li><a href="#">PG DIPLOMA in LABOUR LAW and PERSONNEL MANAGEMENT</a></li>
+                <li><a href="Notice/DIPLOMA-IN-LLPM-SYLLABUS-2020-21.pdf">PG DIPLOMA in LABOUR LAW and PERSONNEL MANAGEMENT</a></li>
             </ul>
         </div>
       </div>
@@ -138,7 +138,7 @@
         </div>
         <div class="faq-answer">
         <ul>
-                <li><a href="#">B.S.W.</a></li>
+                <li><a href="Notice/B.S.W..pdf">B.S.W.</a></li>
                 <li><a href="#">B.A. GEOGRAPHY</a></li>
                 <li><a href="#">B.A. PSYCHOLOGY</a></li>
                 <li><a href="#">B.A.SOCIOLOGY</a></li>
@@ -154,13 +154,13 @@
         </div>
         <div class="faq-answer">
         <ul>
-                <li><a href="#">M.S.W.</a></li>
-                <li><a href="#">M.A. CLINICAL PSYCHOLOGY</a></li>
-                <li><a href="#">M.A. POLITICAL SCIENCE</a></li>
-                <li><a href="#">M.A.SOCIOLOGY</a></li>
-                <li><a href="#">M.B.A. PUBLIC ADMINISTRATION and POLICY</a></li>
-                <li><a href="#">M.B.A. RURAL DEVELOPMENT</a></li>
-                <li><a href="#">M.A.SOCIOLOGY</a></li>
+                <li><a href="Notice/Master-of-Social-Work-(MSW-2YDC).pdf">M.S.W.</a></li>
+                <li><a href="Notice/M.A.-Clinical-Psychology-(2YDC).pdf">M.A. CLINICAL PSYCHOLOGY</a></li>
+                <li><a href="Notice/M.A.-Political-Science-(2YDC).pdf">M.A. POLITICAL SCIENCE</a></li>
+                <li><a href="Notice/M.A.-Sociology( 2YDC).pdf">M.A.SOCIOLOGY</a></li>
+                <li><a href="Notice/MBA-Public-Administration&Policy-(2YDC).pdf">M.B.A. PUBLIC ADMINISTRATION and POLICY</a></li>
+                <li><a href="Notice/MBA-Rural-Development-(2YDC).pdf">M.B.A. RURAL DEVELOPMENT</a></li>
+                <!-- <li><a href="#">M.A.SOCIOLOGY</a></li> -->
             </ul>
 
         </div>
